@@ -1,7 +1,15 @@
 ﻿using System;
 namespace Zebra
 {
-    public enum Led    {        RedOn = 47,        RedOff = 48,        GreenOn = 43,        GreenOff = 42,        YellowOn = 45,        YellowOff = 46    }
+    public enum Led
+    {
+        RedOn = 47,
+        RedOff = 48,
+        GreenOn = 43,
+        GreenOff = 42,
+        YellowOn = 45,
+        YellowOff = 46
+    }
 
     //TODO: Figure out how to add these methods to the binding project
     //  Right now they have to be added to the consuming project.
